@@ -13,7 +13,7 @@ This project is on Performance testing with JMeter for the test.k6.io on contact
 2. Download & Extract [JMeter Binaries Zip](https://jmeter.apache.org/download_jmeter.cgi)
 3. Set environment variable(path) -  **Set JAVA_HOME**
 4. Go to bin folder and open `jmeter.bat`
-5. Download & Extract [project_files](https://drive.google.com/drive/folders/13SuvIsQtVSnPtEatu--I1_O4ma-ujcb4?usp=drive_link) and Move it to `\apache-jmeter-5.5\bin folder`
+5. Download & Extract **[Project_files](https://drive.google.com/drive/folders/13SuvIsQtVSnPtEatu--I1_O4ma-ujcb4?usp=drive_link)** and Move it to `\apache-jmeter-5.5\bin folder`
 6. Open the `test.k6-Performance_Testing.jmx` file on jemeter
 7. **Run the project**
 
