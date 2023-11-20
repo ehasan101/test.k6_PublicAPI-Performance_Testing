@@ -25,10 +25,10 @@ So we run JMeter from the command line. There also generate an HTML report file.
 ```ruby
 jmeter -n -t project_files\test.k6-Performance_Testing.jmx -l report\test.k6-Performance_Testing.jtl  -e -o report\TestResult.html
 ```
-
 **_command structure:_**
 >	`jmeter -n -t [jmx file] -l [results file .jtl/.csv] -e -o [Path for html report folder]`
 
+\
 11. Then a HTML report will be generated in this folder.
 
 
