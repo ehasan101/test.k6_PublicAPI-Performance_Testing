@@ -22,7 +22,7 @@ So we run JMeter from the command line. There also generate an HTML report file.
 
 8. Go to `\apache-jmeter-5.5\bin` and make a folder called "report". 
 9. Now run following commands: \
-`jmeter -n -t project_files\test.k6-Performance_Testing.jmx -l report\test.k6-Performance_Testing.jtl  -e -o report\TestResult.html`
+`jmeter -n -t project_files\test.k6-Performance_Testing.jmx -l report\test.k6-Performance_Testing.jtl  -e -o report\TestResult.html` \
 _command structure:_
 ```ruby
 	jmeter -n -t [jmx file] -l [results file .jtl/.csv] -e -o [Path for html report folder]
