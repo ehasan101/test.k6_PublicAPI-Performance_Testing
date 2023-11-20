@@ -12,8 +12,8 @@ This project is on Performance testing with JMeter for the test.k6.io on contact
 1. Download & Install [JDK](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 2. Download & Extract [JMeter Binaries Zip](https://jmeter.apache.org/download_jmeter.cgi)
 3. Set environment variable(path) -  Set JAVA_HOME
-4. Go to bin folder and open jmeter.bat
-5. Download & Extract [project_files](https://drive.google.com/drive/folders/13SuvIsQtVSnPtEatu--I1_O4ma-ujcb4?usp=drive_link) and Move it to \apache-jmeter-5.5\bin folder.
+4. Go to bin folder and open `jmeter.bat`
+5. Download & Extract [project_files](https://drive.google.com/drive/folders/13SuvIsQtVSnPtEatu--I1_O4ma-ujcb4?usp=drive_link) and Move it to `\apache-jmeter-5.5\bin folder`
 6. Open the `test.k6-Performance_Testing.jmx` file on jemeter
 7. Run the project
 
@@ -23,12 +23,13 @@ So we run JMeter from the command line. There also generate an HTML report file.
 8. Go to `\apache-jmeter-5.5\bin` and make a folder called "report". 
 9. Now run following commands: \
 `jmeter -n -t project_files\test.k6-Performance_Testing.jmx -l report\test.k6-Performance_Testing.jtl  -e -o report\TestResult.html`
-10. Then a HTML report will be generated in this folder.
-
 _command structure:_
 ```ruby
 	jmeter -n -t [jmx file] -l [results file .jtl/.csv] -e -o [Path for html report folder]
 ```
+11. Then a HTML report will be generated in this folder.
+
+
 
 
 <!-- 
