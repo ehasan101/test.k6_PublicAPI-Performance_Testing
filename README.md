@@ -4,7 +4,7 @@
 ## Performance Testing on test.k6.io with JMeter
 
 
-This project is on Performance testing with JMeter for the test.k6.io on contacts, news, flip_Game,Calculating π. It's a evaluating way to simulate and analyze the performance of a public API `test.k6.io` under various user load scenarios and monitoring working functionality and usability as expected.
+This project is on Performance testing with JMeter for the test.k6.io on contacts, news, flip_Game, Calculating π module. It's a evaluating way to simulate and analyze the performance of a public API `test.k6.io` under various user load scenarios and monitoring working functionality and usability as expected.
 
 
 
@@ -41,3 +41,20 @@ jmeter -n -t project_files\test.k6-Performance_Testing.jmx -l report\test.k6-Per
 
 ## Test Report:
 1. HTML [Report Link](https://drive.google.com/drive/folders/1WM7cePqVMVgdr2F4CITW3jM7ccn2yJb1?usp=drive_link)
+2. Snapshots:
+> * *JMeter Summary Report*
+![jreport](https://drive.google.com/uc?export=view&id=1_QUwc694iF_s1C8Arab8v92BJHwzpRCl)
+
+> * *Generated HTML Summary Report*
+![rimage](https://drive.google.com/uc?export=view&id=1mhdDdC432lmD5SxqHS_xRxCg9jTFFOIk)
+
+
+
+---
+
+|:warning: **if you face any type of image broken/missing issue, please `refresh` this web page again.**|
+| --- |
+
+### **#Happy_Testing**
+---
+
