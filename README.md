@@ -40,7 +40,7 @@ jmeter -n -t project_files\test.k6-Performance_Testing.jmx -l report\test.k6-Per
 -->
 
 ## Test Report:
-* Basic Calculation on Requirement
+* Thread Properties
 ``` java
 > Number of user:     = 3000
 > Time:               = 10 minutes
